@@ -1,5 +1,6 @@
 # styled-libguides-accordion
 Instructions to make a styled accordion out of libguides boxes.
+![GIF of live accordion example](https://my.davenport.edu/sites/default/files/public/Hnet-image%281%29.gif)
 
 ## Example
 We will recreate the accordion displayed at [Accordion Sample: Tutors](https://davenport.libguides.com/accordion).
