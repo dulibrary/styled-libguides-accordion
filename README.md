@@ -24,5 +24,14 @@ We will recreate the accordion displayed at [Accordion Sample: Tutors](https://d
 
 ## Fill in the accordion panel body content
 This can be filled however you wish. Here I will give a sample we use for our tutoring accordion.
-1. Replace `<!-- [accordion panel body content] -->` with pasted content found 
+1. Replace `<!-- [accordion panel body content] -->` with [panel-section](https://github.com/brianholda/styled-libguides-accordion/blob/main/panel-section) content.
+2. Modify the [panel-section](https://github.com/brianholda/styled-libguides-accordion/blob/main/panel-section) content:
+  1. Replace `Panel Section` with the name of your panel section. E.g. `<!--BEGIN: Panel Section-->` becomes `<!--BEGIN: Brian Holda-->`, and `<!--END: Panel Section-->` becomes `<!--END: Brian Holda-->`
+  2. Replace the `src` in `<img>` with a URL to your image (cropped to 150px by 150px)
+  3. Replace `<h3>Joe Smith</h3>` with the name of your person/thing. E.g. `<h3>Joe Smith</h3>` becomes `<h3>Brian Holda</h3>`
+  4. Replace `<p>Joe Smith is an I.T Professional with 27+ years of experience.</p>` with your own leading (preferrably, short) sentence. E.g. `<p>Joe Smith is an I.T Professional with 27+ years of experience.</p>` becomes `<p>Brian Holda works at Davenport University.</p>`
+  5. Replace `<summary>More about Joe Smith...</summary>` with the name of your person/thing. E.g. `<summary>More about Joe Smith...</summary>` becomes `<summary>More about Brian Holda...</summary>`
+  6. Replace `He's also a really nice guy.` with your own content (this can be as long or short as you wish).
+  7. If you are not using a form, delete `<a class="btn btn-lg btn-primary" href="https://tutor-form.com" title="Tutor Form for Joe Smith"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Joe Smith</a>`. Otherwise, if you have your own form, update the `href`, `title`, and `Contact Joe Smith` with your own information.
+  
 
