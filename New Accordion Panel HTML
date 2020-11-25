@@ -1,0 +1,17 @@
+<section class="accordion-panel">
+    <h2 class="accordion-panel-heading"><button data-toggle="collapse" data-target="#panel-name" class="btn btn-block">Panel Name</button></h2>
+
+    <div id="panel-name" class="accordion-panel-body-wrapper">
+        <div class="accordion-panel-body">
+
+
+            <!-- [accordion panel body content] -->
+
+
+        </div>
+        <!--/.accordion-panel-body-->
+    </div>
+    <!--/.accordion-panel-body-wrapper-->
+
+</section>
+<!--/.accordion-panel-->
