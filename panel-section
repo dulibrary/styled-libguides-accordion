@@ -1,0 +1,18 @@
+<!--BEGIN: Panel Section-->
+<div class="col-md-4 panel-section">
+
+    <img class="img-circle img-responsive" src="https://s3.amazonaws.com/libapps/apps/common/images/profile.jpg" alt="" height="150" width="150">
+    <h3>Joe Smith</h3>
+
+    <p>Joe Smith is an I.T Professional with 27+ years of experience.</p>
+
+    <details>
+        <summary>More about Joe Smith...</summary>
+
+        He's also a really nice guy &#9786;.
+    </details>
+
+    <a class="btn btn-lg btn-primary" href="https://tutor-form" title="Tutor Form for Joe Smith"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Joe Smith</a>
+
+</div>
+<!--END: Panel Section-->
