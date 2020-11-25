@@ -40,7 +40,7 @@ These boxes will become accordion panels.
 ## Fill in the accordion panel body content
 This can be filled however you wish. Here I will give a sample we use for our tutoring accordion. This sample is just one section within the panel body (it will automatically fill up 1/3 of the box width on a desktop, and adjust accordingly as the screensize gets smaller). You can stack as many sections within the panel body as you want and they will automatically sit side-by-side or move to the next row of the panel body depending on how much room there is.
 
-1. Replace `<!-- [accordion panel body content] -->` with [panel-section](https://github.com/brianholda/styled-libguides-accordion/blob/main/panel-section) content.
+1. Replace `<!-- [accordion panel body content] -->` with the code found at [panel-section](https://github.com/brianholda/styled-libguides-accordion/blob/main/panel-section).
 2. Modify the [panel-section](https://github.com/brianholda/styled-libguides-accordion/blob/main/panel-section) content:
     1. Replace `Panel Section` (found at `<!--BEGIN: Panel Section-->` and `<!--END: Panel Section-->`) with the name of your panel section. E.g. `<!--BEGIN: Panel Section-->` becomes `<!--BEGIN: Brian Holda-->`, and `<!--END: Panel Section-->` becomes `<!--END: Brian Holda-->`
     2. Replace the `src` in `<img>` with a URL to your image (cropped to 150px by 150px)
