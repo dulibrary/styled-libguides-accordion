@@ -4,7 +4,7 @@ Instructions to make a styled accordion out of libguides boxes.
 ## Example
 We will recreate the accordion displayed at [Accordion Sample: Tutors](https://davenport.libguides.com/accordion).
 
-## Insert LibGuide accordion styling
+## Insert LibGuide accordion styling (only done once)
 This will style the libguide boxes you will create into an accordion menu. It can be placed anywhere on your page.
 
 1. From the LibGuides Admin page, select `Add box`
@@ -17,7 +17,7 @@ This will style the libguide boxes you will create into an accordion menu. It ca
 8. Paste the code found at [accordion-styling](https://github.com/brianholda/styled-libguides-accordion/blob/main/accordion-styling)
 9. Click `Save & Close`
 
-## Create your boxes
+## Create your boxes (repeat for every accordion panel you want)
 These boxes will become accordion panels.
 
 1. From the LibGuides Admin page, select `Add box`
