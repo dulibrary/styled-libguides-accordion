@@ -1,0 +1,97 @@
+<style>
+    .accordion-panel {
+        margin-bottom: -3.25rem;
+    }
+    
+    .accordion-panel-heading {
+        margin: 0;
+    }
+    
+    .accordion-panel-heading>button {
+        transition: .15s;
+        font-size: 2.25rem;
+        text-align: left;
+        border: 1px solid;
+    }
+    
+    .accordion-panel-heading>button:hover,
+    .accordion-panel-heading>button:focus {
+        background: #C9D6FF;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .accordion-panel-heading>button[aria-expanded="true"] {
+        font-size: 2.5rem;
+        border: 3px solid;
+        border-bottom: none;
+        border-radius: 0;
+        background: #C9D6FF;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .accordion-panel-body-wrapper {
+        padding: 0 2rem;
+        border: 3px solid;
+        border-top: none;
+        margin-bottom: 3rem;
+    }
+    
+    .accordion-panel-body {
+        display: flex;
+        flex-flow: row wrap;
+        padding-top: 3vh;
+    }
+    
+    .accordion-panel-body details+a.btn-block {
+        margin-top: 3vh;
+    }
+    
+    .panel-section {
+        margin-bottom: 10vh;
+    }
+    
+    .panel-section details>summary {
+        cursor: pointer;
+        margin: 3vh 0;
+        font-style: italic;
+    }
+    
+    .panel-section details>summary:focus,
+    .panel-section details>summary:hover {
+        color: #23527c;
+        border: 1px solid gray;
+    }
+    
+    .panel-section .btn-primary:focus,
+    .panel-section .btn-primary:hover {
+        background: #0575E6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+</style>
+
+<script>
+    //collapse menu when JS is on
+    $(".accordion-panel-body-wrapper").addClass("collapse");
+
+    //notify screenreaders that accordion panels are closed by default
+    $(".accordion-panel-heading>button").attr("aria-expanded", "false");
+
+    //open box when box within navigation menu is clicked
+    $("#s-lg-guide-tabs .list-group-item > a").click(function() {
+        let boxId = this.hash;
+        $(boxId + " button").click();
+    });
+</script>
